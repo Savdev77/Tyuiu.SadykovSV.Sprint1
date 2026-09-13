@@ -1,7 +1,7 @@
 ﻿
 using Tyuiu.SadykovSV.Sprint1.Task1.V19.Lib;
 DataService ds = new DataService();
-Console.Title = "Спринт #0 | Выполнил: Садыков С.В. | ПИНБ-26-1";
+Console.Title = "Спринт #1 | Выполнил: Садыков С.В. | ПИНБ-26-1";
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #1                                                               *");
 Console.WriteLine("* Тема: Создание итогового решения по спринту                             *");
