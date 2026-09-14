@@ -1,0 +1,16 @@
+﻿using Tyuiu.SadykovSV.Sprint1.Task5.V2.Lib;
+namespace Tyuiu.SadykovSV.Sprint1.Task5.V2.Test
+{
+    [TestClass]
+    public sealed class DataServiceTest
+    {
+        [TestMethod]
+        public void ValidExpression()
+        {
+            DataService ds = new DataService();
+            double temp = 32;
+            var res= ds.FahrenheitToСelsius(temp);
+            Assert.AreEqual(0, res);
+        }
+    }
+}
