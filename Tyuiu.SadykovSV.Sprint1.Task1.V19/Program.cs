@@ -19,7 +19,6 @@ Console.WriteLine("*************************************************************
 double x, y;
 Console.WriteLine("Введите значение Х: ");
 x= Convert.ToDouble(Console.ReadLine());
-
 Console.WriteLine("Введите значение Y: ");
 y= Convert.ToDouble(Console.ReadLine());
 
