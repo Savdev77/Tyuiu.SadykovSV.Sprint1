@@ -16,9 +16,9 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* Исходные данные:                                                        *");
 Console.WriteLine("***************************************************************************");
 int a, b;
+
 Console.WriteLine("Введите длину первой стороны прямоугольника: ");
 a = Convert.ToInt32(Console.ReadLine());
-
 Console.WriteLine("Введите длину второй стороны прямоугольника: ");
 b = Convert.ToInt32(Console.ReadLine());
 
