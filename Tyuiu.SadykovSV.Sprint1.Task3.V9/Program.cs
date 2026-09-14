@@ -1,30 +1,27 @@
-﻿
-using Tyuiu.SadykovSV.Sprint1.Task1.V19.Lib;
+﻿using Tyuiu.SadykovSV.Sprint1.Task3.V9.Lib;
 DataService ds = new DataService();
 Console.Title = "Спринт #1 | Выполнил: Садыков С.В. | ПИНБ-26-1";
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #1                                                               *");
-Console.WriteLine("* Тема: Организация ввода\\вывода данных в С#                              *");
-Console.WriteLine("* Задание #1                                                              *");
-Console.WriteLine("* Вариант #19                                                             *");
+Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+Console.WriteLine("* Задание #3                                                              *");
+Console.WriteLine("* Вариант #9                                                              *");
 Console.WriteLine("* Выполнил: Садыков С.В. | ПИНБ-26-1                                      *");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* УСЛОВИЕ:                                                                *");
-Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-Console.WriteLine("* вычисляет результат по формуле (x+10*y)/(x*y) и печатает его на экране. *");
+Console.WriteLine("* Написать программу пересчета величины временного интервала,             *");
+Console.WriteLine("* заданного в минутах, в величину, выраженную в часах и минутах.          *");
 Console.WriteLine("*                                                                         *");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Исходные данные:                                                        *");
 Console.WriteLine("***************************************************************************");
-double x, y;
-Console.WriteLine("Введите значение Х: ");
-x= Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Введите значение Y: ");
-y= Convert.ToDouble(Console.ReadLine());
-
+Console.WriteLine("* Введите временной интервал (в минутах)                                  *");
+double minutes;
+minutes = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
+double hours = ds.ConvertMinutesToHours((int)minutes);
+Console.WriteLine($"Временной интервал: {minutes} минут = {hours} часов");
 
-Console.WriteLine(ds.Calculate(x, y));
 Console.ReadKey();
