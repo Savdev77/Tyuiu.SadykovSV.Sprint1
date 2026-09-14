@@ -3,7 +3,7 @@ DataService ds= new DataService();
 Console.Title = "Спринт #1 | Выполнил: Садыков С.В. | ПИНБ-26-1";
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #1                                                               *");
-Console.WriteLine("* Тема: Создание итогового решения по спринту                             *");
+Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
 Console.WriteLine("* Задание #0                                                              *");
 Console.WriteLine("* Вариант #13                                                             *");
 Console.WriteLine("* Выполнил: Садыков С.В. | ПИНБ-26-1                                      *");
